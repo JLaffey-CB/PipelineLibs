@@ -1,8 +1,10 @@
 pipeline {
   agent any
   @Library("demoPipeline") _
-  standardPipeline {
+  stages {
+  stage 'buildstate'{
     projectName = "Build1"
     serverDomain = "Build1 Server Domain"
+  }
   }
 }
