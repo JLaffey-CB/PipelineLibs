@@ -1,5 +1,5 @@
 @Library("demoPipeline") _
 demoPipeline {
-    projectName = "Project1"
+    projectName = "Project12"
     serverDomain = "Project1 Server Domain"
 }
